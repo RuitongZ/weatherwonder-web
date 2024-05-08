@@ -6,6 +6,10 @@ export default {
       fontFamily: {
         body: ['Jost'],
       },
+      screens: {
+        md: '880px',
+        sm: '550px',
+      },
     },
   },
   plugins: [],
