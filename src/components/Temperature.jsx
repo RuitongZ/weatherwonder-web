@@ -4,7 +4,7 @@ const Temperature = (props) => {
     : null;
 
   return (
-    <div className='flex items-center mx-12 pt-[98px] text-white'>
+    <div className='text-white flex items-center justify-center mx-10 mt-[150px] sm:mt-[195px] sm:justify-start md:mt-[195px] md:justify-start lg:mx-12 lg:mt-[98px] lg:justify-start'>
       <div>
         <p className='font-medium text-[140px]'>{`${props.weather.temp}°`}</p>
       </div>
